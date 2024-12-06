@@ -38,7 +38,7 @@ class Control:
     def pow(self, a, b):
         try:
             if(b == 0):
-                raise Exception("Base Error");
+                raise Exception("Base Error!");
         except Exception as e:
             return e
         return a/b
